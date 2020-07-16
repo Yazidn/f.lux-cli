@@ -17,7 +17,7 @@ F.lux have a Linux version, but it's not as sophisticated as the Windows version
 
 # Usage
 1. Get the script
-2. Download ![xflux](https://justgetflux.com/linux.html) for Linux.
+2. Download [xflux](https://justgetflux.com/linux.html) for Linux.
 3. The script needs xflux to be in the same directory so it can access the actual program, so move both "flux" the script, and "xflux" the program to `/usr/local/bin`
 4. You'll need to magnitude and lattitude for your location, and a location that has night time. In my case, i used Algeria and Kiritimati, because they are 14 hours in difference, the transition is seamless. Edit the following lines in the script, in `enable`, change the -l and -g to your actual location, and in `force_enable`, to the place that's currently in night time.
 ```bash
@@ -30,7 +30,7 @@ force_enable(){
 }
 ```
 5. Run the script by typing `flux` in your terminal. (It needs to be in the /usr/local/bin so it can be accessed from anywhere.)
-6. Use ![This website](https://www.worldtimeserver.com/worldclock.aspx) to help you find proper location, and magnitude and lattitude could be googled for any location.
+6. Use [This website](https://www.worldtimeserver.com/worldclock.aspx) to help you find proper location, and magnitude and lattitude could be googled for any location.
 
 ## Examples
 - `flux`: Activate it with 3400K (default) color temperature, great for night time and dark rooms
