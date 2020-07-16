@@ -33,8 +33,8 @@ force_enable(){
 6. Use ![This website](https://www.worldtimeserver.com/worldclock.aspx) to help you find proper location, and magnitude and lattitude could be googled for any location.
 
 ## Examples
-`flux`: Activate it with 3400K (default) color temperature, great for night time and dark rooms 
-`flux 4800`: Activate with a custom temperature of 4800K.
+- `flux`: Activate it with 3400K (default) color temperature, great for night time and dark rooms
+- `flux 4800`: Activate with a custom temperature of 4800K.
 
 ## Color tempreratures guide
 These are what i found to be commonly used, mostly from the range of 3400 to 5000.
