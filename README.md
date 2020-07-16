@@ -32,6 +32,10 @@ force_enable(){
 5. Run the script by typing `flux` in your terminal. (It needs to be in the /usr/local/bin so it can be accessed from anywhere.)
 6. Use [This website](https://www.worldtimeserver.com/worldclock.aspx) to help you find proper location, and magnitude and lattitude could be googled for any location.
 
+## Notes
+- When running, just run the script again and it will stop it.
+- If you notice the color temperature going back to normal, just run the script to disable the current running process, and run it again, it will run with the differents settings to "force" it. in other words, when the colors revert back to normal, it just means that flux thinks it's daytime, so you need to tell him that it's night time, by using a different location, and that's exactly what the script does.
+
 ## Examples
 - `flux`: Activate it with 3400K (default) color temperature, great for night time and dark rooms
 - `flux 4800`: Activate with a custom temperature of 4800K.
